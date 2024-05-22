@@ -436,7 +436,7 @@ footer a {
     }
     .calendar iframe {
         width: 100%;
-        height: 100%;
+        height: 300px;
     }    
 
     .resvform {
@@ -446,6 +446,6 @@ footer a {
 
     .resvform iframe {
         width: 100%;
-        height: 100%;
+        height: 1000px;
 }
 }
