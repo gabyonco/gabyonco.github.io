@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Haukai Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="home.html"><img src="images/logo.png" alt="Haukai Restaurant Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">HOURS</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="reservations.html">RESERVATIONS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p>Call: <a href="tel:+649 123 4567">+64 9 123 4567</a> or submit form below</p>
+            </div>
+            <div class="contact-form">
+                <form action="YOUR_FORM_SUBMISSION_URL" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101865.15710049946!2d-35.19071602522519!3d-40.62373713878588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa843f191fdd3cfb7%3A0x85ccfdd330bb89e3!2sBay%20of%20Islands%2C%20New%20Zealand!5e0!3m2!1sen!2sus!4v1621238981554!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="address">
+                <p>Haukai Restaurant</p>
+                <p>1 Island Street, Kerikeri, Bay of Islands</p>
+            </div>
+        </section>
+        <section id="opening-hours" class="opening-hours">
+            <h2>Opening Hours</h2>
+            <div class="hours">
+              <p>Monday: 5pm-9pm</p>
+              <p>Tuesday: 5pm-9pm</p>
+              <p>Wednesday: 5pm-9pm</p>
+              <p>Thursday: 5pm-9pm</p>
+              <p>Friday: 5pm-11pm</p>
+              <p>Saturday: 5pm-11pm</p>
+              <p>Sunday: 5pm-9pm</p>
+            </div>
+    </section>
+    </main>
+
+    <footer id="contact">
+        <address>
+            <p>Haukai Restaurant</p>
+            <p>1 Island Street, Kerikeri, Bay of Islands</p>
+            <p>Email: <a href="mailto:info@haukai.co.nz">info@haukai.co.nz</a></p>
+            <p>Phone: <a href="tel:+649 401 4019">09 401 4019</a></p>
+        </address>
+        <div class="copyright">
+        <p>&copy; 2024 Haukai Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
