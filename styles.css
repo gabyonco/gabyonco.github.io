@@ -114,13 +114,13 @@ h3 {
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
-    background-color: #f9f9f9; /* Adjust background color as needed */
+    background-color: #f9f9f9; 
 }
 
 .who-we-are-content {
     flex: 1;
     max-width: 60%;
-    margin-right: 20px; /* Space between text and image */
+    margin-right: 20px; 
 }
 
 .who-we-are-content h3 {
@@ -149,7 +149,7 @@ h3 {
 #opening-hours {
     text-align: center;
     padding: 20px;
-    background-color: #ffffff; /* Adjust background color as needed */
+    background-color: #ffffff; 
     margin-top: 4em;
 }
 
@@ -192,62 +192,6 @@ footer a {
     text-align: right;
     font-size: 10px;
 }
-
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0;
-    }
-
-    .hero {
-        height: 40vh;
-    }
-
-    .hero h1 {
-        font-size: 2em;
-    }
-
-    .hero p {
-        font-size: 1em;
-    }
-
-    @media (max-width: 768px) {
-        #who-we-are {
-            flex-direction: column;
-            align-items: center;
-            padding: 10px;
-        }
-    
-        .who-we-are-content {
-            width: 100%;
-            max-width: none;
-            margin-right: 0; 
-            margin-left: 0; 
-            text-align: center; 
-        }
-    
-        .who-we-are-content h3 {
-            margin-left: 0; 
-        }
-    
-        .who-we-are-content p {
-            margin-left: 0; 
-        }
-    
-        .who-we-are img {
-            width: 100%;
-            max-width: 100%; 
-            margin-left: 0; 
-            margin-right: 0; 
-            margin-bottom: 20px; 
-        }
-}
 .menu {
     text-align: center;
     color: #fff;
@@ -268,7 +212,7 @@ footer a {
     background: rgba(0, 0, 0, 0.675); 
     z-index: 1;
 }
-}
+
 .menu h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
@@ -372,13 +316,11 @@ footer a {
     gap: 40px;
 }
 
-/* Flexbox item: hours */
 .hours {
     flex: 2;
     margin: 2em;
 }
 
-/* Flexbox item: calendar */
 .calendar {
     flex: 1;
     background-color: #f9f9f9;
@@ -386,4 +328,109 @@ footer a {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-left: 5em;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5em;
+    }
+
+    .hero {
+        height: 40vh;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .buttons {
+        grid-template-columns: 1fr;
+    }
+
+    #who-we-are {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .who-we-are-content {
+        width: 100%;
+        max-width: none;
+        margin-right: 0; 
+        margin-left: 0; 
+        text-align: center; 
+    }
+
+    .who-we-are-content h3 {
+        margin-left: 0; 
+    }
+
+    .who-we-are-content p {
+        margin-left: 0; 
+    }
+
+    .who-we-are img {
+        width: 100%;
+        max-width: 100%; 
+        margin-left: 0; 
+        margin-right: 0; 
+        margin-bottom: 20px; 
+    }
+
+    #opening-hours {
+        margin-top: 2em;
+        padding: 10px;
+    }
+
+    #opening-hours h2 {
+        font-size: 24px;
+    }
+
+    .hours p {
+        font-size: 14px;
+    }
+
+    .menu {
+        padding: 20px 10px;
+    }
+
+    .menu h2 {
+        font-size: 2em;
+    }
+
+    .menu-item h2 {
+        font-size: 1.5em;
+    }
+
+    .menu-item h1 {
+        font-size: 1em;
+    }
+
+    .info-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .hours {
+        margin: 1em 0;
+    }
+
+    .calendar {
+        margin-left: 0;
+    }
 }
