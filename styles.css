@@ -337,6 +337,9 @@ footer a {
         align-items: flex-start;
         padding: 1em;
     }
+    .logo {
+        flex-direction: column;
+    }
 
     nav ul {
         flex-direction: column;
