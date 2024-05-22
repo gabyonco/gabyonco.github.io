@@ -432,5 +432,11 @@ footer a {
 
     .calendar {
         margin-left: 0;
+        width: 100%;
+    }
+
+    .resvform {
+        margin-left: 0;
+        width: 100%;
     }
 }
