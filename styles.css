@@ -434,9 +434,18 @@ footer a {
         margin-left: 0;
         width: 100%;
     }
+    .calendar iframe {
+        width: 100%;
+        height: auto;
+    }    
 
     .resvform {
         margin-left: 0;
         width: 100%;
     }
+
+    .resvform iframe {
+        width: 100%;
+        height: auto;
+}
 }
