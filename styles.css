@@ -217,13 +217,27 @@ footer a {
         font-size: 1em;
     }
 
-    .who-we-are-content {
-        grid-template-columns: 1fr;
+    #who-we-are {
+        flex-direction: row; /* Change to row layout for larger screens */
+        justify-content: space-between;
+        align-items: flex-start;
     }
 
-    .who-we-are-content img {
-        margin: 1em 0;
+    .who-we-are-content {
+        flex: 1;
+        max-width: 60%;
+        text-align: left; /* Align text to the left for larger screens */
+        margin-right: 20px; /* Space between text and image */
+        margin-left: 3em; /* Margin adjustments */
     }
+
+    .who-we-are-content p {
+        margin-left: 0; /* Reset left margin for paragraphs */
+    }
+
+    .who-we-are img {
+        margin-left: 20px;
+        margin-right: 5.8em;
 }
 .menu {
     text-align: center;
